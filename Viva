@@ -1,0 +1,356 @@
+Theek hai. Ab main tumhe Security in Computing ke sab practicals ke important definitions + most expected viva points ek jagah pe de rahi hoon.
+
+Short, clear, exam-ready. Jo pucha ja sakta hai woh highlight bhi kar rahi hoon.
+
+
+---
+
+🔐 PRACTICAL 1
+
+(OSPF, MD5, NTP, Syslog, SSH)
+
+✅ OSPF
+
+Open Shortest Path First is a link-state routing protocol that calculates the shortest path using Dijkstra’s algorithm.
+
+👉 Very Important
+
+
+---
+
+✅ Link-State Routing Protocol
+
+A protocol that shares full network topology information with all routers.
+
+
+---
+
+✅ MD5 Authentication
+
+A hashing algorithm used to secure OSPF routing updates so that only routers with matching keys can exchange routes.
+
+👉 Important Question:
+If MD5 key mismatches → OSPF adjacency fails.
+
+
+---
+
+✅ OSPF Adjacency
+
+A relationship formed between routers when they successfully exchange routing information.
+
+
+---
+
+✅ NTP
+
+Network Time Protocol synchronizes device clocks with a time server.
+
+👉 Why important?
+Accurate logs and auditing.
+
+
+---
+
+✅ NTP Authentication
+
+Ensures router accepts time updates only from trusted NTP servers.
+
+
+---
+
+✅ Syslog
+
+A protocol used to send log messages from network devices to a centralized logging server.
+
+👉 Why used?
+For monitoring and troubleshooting.
+
+
+---
+
+✅ SSH
+
+Secure Shell is an encrypted remote login protocol.
+
+👉 SSH vs Telnet?
+SSH encrypted, Telnet plain text.
+
+
+---
+
+✅ RSA
+
+A public-key encryption algorithm used to generate keys for SSH.
+
+
+---
+
+🔐 PRACTICAL 2
+
+(AAA, RADIUS, TACACS+)
+
+
+---
+
+✅ AAA
+
+Authentication, Authorization, Accounting.
+
+👉 Very Important
+
+
+---
+
+✅ Authentication
+
+Verifying identity of user.
+
+
+---
+
+✅ Authorization
+
+Determining what user is allowed to access.
+
+
+---
+
+✅ Accounting
+
+Recording user activities.
+
+
+---
+
+✅ RADIUS
+
+AAA protocol using UDP that encrypts only password.
+
+
+---
+
+✅ TACACS+
+
+AAA protocol using TCP that encrypts entire packet.
+
+👉 Difference between RADIUS & TACACS+ – Highly Asked
+
+
+---
+
+✅ Local Authentication
+
+Using router’s internal username/password database.
+
+
+---
+
+🔐 PRACTICAL 3
+
+(Extended ACL)
+
+
+---
+
+✅ ACL
+
+Access Control List filters network traffic based on rules.
+
+
+---
+
+✅ Standard ACL
+
+Filters traffic only by source IP address.
+
+
+---
+
+✅ Extended ACL
+
+Filters traffic by source, destination, protocol, and port number.
+
+👉 Important Difference
+
+
+---
+
+✅ Wildcard Mask
+
+Inverse of subnet mask used in ACL configuration.
+
+
+---
+
+✅ Implicit Deny
+
+Every ACL has an automatic "deny all" at the end.
+
+👉 Very Important
+
+
+---
+
+🔐 PRACTICAL 4
+
+(ACL to Mitigate Attacks)
+
+
+---
+
+✅ Attack Mitigation
+
+Preventing malicious traffic using security controls.
+
+
+---
+
+✅ RFC 1918
+
+Defines private IP address ranges:
+
+10.0.0.0/8
+
+172.16.0.0–172.31.255.255
+
+192.168.0.0/16
+
+
+👉 Very commonly asked
+
+
+---
+
+✅ ICMP
+
+Internet Control Message Protocol used for ping and error messages.
+
+
+---
+
+🔐 PRACTICAL 5
+
+(IPv6 ACL)
+
+
+---
+
+✅ IPv6
+
+Next generation IP protocol with 128-bit addressing.
+
+
+---
+
+✅ IPv6 ACL
+
+Access control list used to filter IPv6 traffic.
+
+👉 Difference: No wildcard mask used in IPv6 ACL.
+
+
+---
+
+✅ DDoS
+
+Distributed Denial of Service attack floods a server with traffic from multiple systems.
+
+
+---
+
+🔐 PRACTICAL 6
+
+(Zone-Based Policy Firewall – ZPF)
+
+
+---
+
+✅ ZPF
+
+Zone-Based Policy Firewall is a stateful firewall used to control traffic between security zones.
+
+👉 Very Important
+
+
+---
+
+✅ Zone
+
+Logical grouping of interfaces with similar security levels.
+
+
+---
+
+✅ Zone Pair
+
+Defines traffic direction between two zones.
+
+
+---
+
+✅ Class Map
+
+Defines traffic to match.
+
+
+---
+
+✅ Policy Map
+
+Defines action like inspect, drop, or pass.
+
+
+---
+
+✅ Inspect
+
+Allows traffic and tracks session state.
+
+👉 Difference between ACL and ZPF?
+ACL is stateless.
+ZPF is stateful.
+
+
+---
+
+⭐ MOST PROBABLE QUESTIONS
+
+1. Define OSPF
+
+
+2. What is MD5 authentication?
+
+
+3. Why SSH instead of Telnet?
+
+
+4. Define AAA
+
+
+5. Difference between Authentication and Authorization
+
+
+6. Difference between RADIUS and TACACS+
+
+
+7. Define Extended ACL
+
+
+8. What is implicit deny?
+
+
+9. What is RFC 1918?
+
+
+10. What is ZPF?
+
+
+
+
+---
+
+Ab honestly bolo.
+Confidence level ab kitna hai 10 me se?
+
+Agar chaho to main 10 rapid-fire viva questions puchu aur tum answer do. 💪
