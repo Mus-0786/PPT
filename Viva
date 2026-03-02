@@ -1,9 +1,3 @@
-Theek hai. Ab main tumhe Security in Computing ke sab practicals ke important definitions + most expected viva points ek jagah pe de rahi hoon.
-
-Short, clear, exam-ready. Jo pucha ja sakta hai woh highlight bhi kar rahi hoon.
-
-
----
 
 🔐 PRACTICAL 1
 
@@ -227,38 +221,6 @@ Defines private IP address ranges:
 Internet Control Message Protocol used for ping and error messages.
 
 
----
-
-🔐 PRACTICAL 5
-
-(IPv6 ACL)
-
-
----
-
-✅ IPv6
-
-Next generation IP protocol with 128-bit addressing.
-
-
----
-
-✅ IPv6 ACL
-
-Access control list used to filter IPv6 traffic.
-
-👉 Difference: No wildcard mask used in IPv6 ACL.
-
-
----
-
-✅ DDoS
-
-Distributed Denial of Service attack floods a server with traffic from multiple systems.
-
-
----
-
 🔐 PRACTICAL 6
 
 (Zone-Based Policy Firewall – ZPF)
@@ -311,46 +273,3 @@ Allows traffic and tracks session state.
 ACL is stateless.
 ZPF is stateful.
 
-
----
-
-⭐ MOST PROBABLE QUESTIONS
-
-1. Define OSPF
-
-
-2. What is MD5 authentication?
-
-
-3. Why SSH instead of Telnet?
-
-
-4. Define AAA
-
-
-5. Difference between Authentication and Authorization
-
-
-6. Difference between RADIUS and TACACS+
-
-
-7. Define Extended ACL
-
-
-8. What is implicit deny?
-
-
-9. What is RFC 1918?
-
-
-10. What is ZPF?
-
-
-
-
----
-
-Ab honestly bolo.
-Confidence level ab kitna hai 10 me se?
-
-Agar chaho to main 10 rapid-fire viva questions puchu aur tum answer do. 💪
